@@ -1,0 +1,13 @@
+#+TITLE: Πανδώρα Άλφα
+#+AUTHOR: Stefanos Carlström
+#+EMAIL: stefanos.carlstrom@gmail.com
+
+CAD drawings of an integrated amplifier enclosure.
+
+Parts:
+- [[https://github.com/jagot/orpheus-alpha][Ορφέας Άλφα preamplifier]]
+- [[https://github.com/jagot/orpheus-alpha-ctrl][Ορφέας Άλφα μC]] with ALPS EC11B15242AE rotary encoder
+- [[https://www.yuan-jing.com/tpa3116-class-d-2-0-stereo-amplifier-board-anti-pop][TPA3116 power amplifier]]
+- [[https://www.aliexpress.com/item/1-pcs-szomk-aluminum-housing-extruded-box-40-105-150mm-new-arrival-shenzhen-audio-amplifier-enclosure/32346547487.html?spm=a2g0s.9042311.0.0.Bv7YeJ][AK-C-C69 enclosure]]
+
+[[file:./box.png]]

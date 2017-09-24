@@ -1,0 +1,17 @@
+difference(){
+     cube([64,68,1.6]);
+     for(x=[6,58]){
+          for(y=[4,64]){
+               for(z=[-0.05,1.45])
+                    translate([x,y,z])
+                         cylinder(0.2,d=7,$fn=100);
+               translate([x,y,-1]){
+                    cylinder(4,d=3.2,$fn=100);
+                    for(i=[0:7])
+                         rotate([0,0,i*360/8])
+                              translate([2.5,0,0])
+                              cylinder(4,d=0.7,$fn=100);
+               }
+          }
+     }
+}
