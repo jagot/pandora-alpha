@@ -33,9 +33,13 @@ translate([180,-2.5,-2.5]){
           translate([-1,80,9.5]){
                cube([5,13,25]);
                translate([0,6.5,16.5])
-               rotate([0,90,0])
-               cylinder(h=10,d=8,$fn=100);
+                    rotate([0,90,0])
+                    cylinder(h=10,d=8,$fn=100);
           }
+          translate([7,43,8])
+               scale(0.8)
+               rotate([90,0,90])
+               import("logo.stl");
      }
 }
 
